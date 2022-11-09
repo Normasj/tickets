@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Merriweather:ital,wght@0,900;1,400&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato:ital,wght@1,900&family=Merriweather:ital,wght@0,900;1,400&family=Roboto+Condensed:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}   
+header{
+    display: flex;
+    justify-content:space-between;
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,241,234,1) 16%);
+    padding: 12px 24px;
+    align-items: center;
+}
+
+header>nav>ul{
+    display: flex;
+    list-style:none;
+    color:white;
+    gap: 30px;
+}
+
+header>nav>ul>li>a{
+    color:rgb(6, 13, 73);
+    font-family: 'Inter', sans-serif;
+    text-decoration:none;
+    transition:all .2s ;
+}
+header>nav>ul>li>a:hover {
+color:rgb(214, 170, 214);
+}
+
+header>nav>ul>li:last-child a {
+    color: green
+}
+
+/*Mis clases */
+
+.bannerciudad {
+    display: flex;
+    width: 100% 0%;
+    box-sizing: border-box;
+    background-image: url(./imagenes/Backgroundm\ ciudad.jpg);
+    background-color: rgb(214, 241, 241);
+     height: 60vh;
+     color:black(169, 225, 244);
+     font-family: 'Merriweather', serif;
+     padding: 0%;
+    text-align:center;
+    justify-content:end;
+    align-items: end;
+    color:white;
+    font-size: larger;
+    font
+
+}
+
+
+    .bannerciudad>button{
+        margin-right: 7%;
+        width: fit-content;
+        cursor:context-menu;
+        padding: 4px 8px;
+        margin-top: .3 em;S
+        align-items: flex-end;
+        background: rgb(243, 175, 220);
+        color: blue;
+        border: 0px;
+        border: radius 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+     .propiedades{
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       margin-top: 12px;
+       font-size: font-family: 'Lato', sans-serif;
+       color: black
+       text-transform: uppercase; 
+       
+     }
+     .propiedades div:last-child{
+       margin-top: 2px;
+       font-weight: bold;
+       font-size: 1.5em;
+     }
+
+     /*alinear*/
+     .alinear{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+     }
+
+     .card{
+     width: 20%;  
+     font-family: 'Lato', sans-serif;  
+     border:1px solid rgb(79, 44, 194);
+     }
+     .imagenes{
+            height:300px;
+            background-size: cover;
+            background-position-x:center;
+            <span class="subtitle ubicacion">La Union</span>
+            <span class="subtitle metros">70 mts</span>
+            </div>
+             <div class="title ciudad">Montevideo</div>
+            </div> 
+            <div class="descripcion">3 ambientes con patio y azotea en muy buena ubicación. Estado general muy bueno y tiene solo 15 años de antiguedad. Si te interesa conocer más detalles contactános. Te responderemos de inmediato.</div>")
+       
+     }
+.imagen1{
+    background-image: url("http://realprops.com.ar/uploads/inmuebles/1b774651d4acc97ff92929e03b2c28a8.jpeg");
+}
+.imagen2{
+    background-image: url("http://realprops.com.ar/uploads/inmuebles/88aea396bf454e74921e18b4697995b1.jpeg");
+}    
+.imagen3{
+    background-image: url("https://static1.sosiva451.com/5205023/dc1e46ea-42c5-4540-9b2d-a888388d7161_u_large.jpg");
+}
+    div>span{
+        display:flexbox; 
+        gap: 6px;
+    }
+    .ubicacion{
+         background-color: darkorange;
+        font-size: medium;
+        font-weight: 750;
+        color: black;
+        padding: 1px 5px;
+        border-radius: 4px;
+    }
+    .metros{
+        background-color: rgb(19, 111, 128);
+        font-size: medium;
+        font-weight: 750;
+        color: white;
+        padding: 1px 5px;
+        border-radius: 4px;
+    }
+    .imagenes{
+      margin-bottom: 15px;
+    }
+    .ciudad{
+     font-weight: bold;   
+    }
+    .descripcion{
+    font-size: small;
+     text-align: justify;  
+
+    }
+
+    /*publicidad*/
+    .publi {
+        display: flex;
+        height: 45%;
+        gap: 2px;
+        margin: 30px 10%;
+    }
+    
+    .publi .mvd {
+    background-image: url("https://media.ambito.com/p/9aafc132c2a71461ade65791d710cec9/adjuntos/239/imagenes/038/484/0038484279/montevideojpg.jpg");
+    height:35vh;
+    width: 60% 
+    }
+    .publi .texto{
+        background-color:rgb(199, 204, 151) ;
+        margin-left: 6px;
+        width: 63%;
+
+    
+    }
+    .publi .texto div:first-child{
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .publi .texto button {
+        background-color:rgb(148, 235, 148);
+        cursor: pointer;
+        border: 2px solid rgb(88, 87, 87);
+        border-radius: 4px;
+        font-weight: bold;
+        padding: 7px;
+        margin-top: 10px;
+    }
+
+    /*Formulario*/
+    .lowercase{
+       text-transform: none; 
+    }
+
+    .lowercase a {
+        color:black;
+    }
+
+    .formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+    .formulario p{
+          font-size: small; 
+    }
+
+    .start {
+        align-self: start;
+    }
+    
+    form{
+    padding: 15px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    form div {
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    text-align: column;
+    align-items: center;
+    gap: 2px;
+     }
+    
+    form>div>input{
+       padding: 2px;
+       width: 100%; 
+       font-family: 'Inter', sans-serif;
+       border: 2px solid rgba(131, 130, 130, 0.425);
+    }
+
+    form>textarea {
+        padding: 2px;
+    margin: 4px 0;
+    width: 100%;
+
+        font-family: 'Open Sans', sans-serif;
+        box-sizing: border-box;
+        border: 2px solid lightgray
+    }
+    
+    form button{
+    width: 100%;
+    background-color:rgb(116, 231, 116); 
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 9px 0;
+}
+    .servicios{
+    padding: 14px 0; 
+      color:rgb(25, 36, 155);
+      font-family: 'Inter', sans-serif;
+      text-decoration:none;
+
+    }
+     .venta{ 
+        padding: 10px;
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+
+    /*footer*/
+    footer ul {
+        display: flex;
+        background: linear-gradient(90deg, rgba(50, 46, 122, 0.968) 0%, rgb(3, 64, 95) 36%, rgb(2, 74, 102) 100%);
+        padding: 20px;
+        display: flex;
+        align-items:center;
+        font-family: 'Inter', sans-serif
+        justify-content: space-around;
+}
+
+footer ul li{
+    list-style-type: none;
+    width: 15%;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+    footer li a{
+        color:white; 
+        font-weight= bold;
+        text-decoration: none;
+        
+    }
